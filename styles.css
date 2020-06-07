@@ -1,0 +1,94 @@
+/****************************TAG SELECTORS******************************/
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'moonflowerbold';
+  text-shadow: 5px 0 #232931;
+  font-size: 10rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
+
+/****************************CLASS SELECTORS*****************************/
+
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  width: 30%;
+  text-align: center;
+  display: inline-block;
+}
+
+.myButton {
+	background:linear-gradient(to bottom, #4ECCA2 5%, #4CC79E 100%);
+	background-color:#4ECCA2;
+	border-radius:4px;
+	border:1px solid #46B08D;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'moonflowerbold';
+	font-size:40px;
+	font-weight:bold;
+	padding:12px 23px;
+	text-decoration:none;
+  margin: 60px 0 0;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #318065 5%, #318065 100%);
+	background-color:#318065;
+  border:1px solid #318065;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+/****************************ID SELECTORS*******************************/
+
+/*******************************FONTS**********************************/
+
+@font-face {
+  font-family: 'moonflowerbold';
+  src: url(fonts/MoonFlowerBold.ttf);
+}
+
+/****************************MEDIA QUERY*******************************/
+
+@media (max-width: 1042px) {
+
+  .container {
+    width: 90%;
+  }
+
+  .myButton {
+    font-size: 60px;
+    padding: 24px 46px;
+  }
+
+}
